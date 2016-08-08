@@ -156,7 +156,7 @@ ReactDOM.render(
         jsx: props => <ReactSpecimen {...props} />
       }}
       title={title}
-      logoSrc="https://corncandy.github.io/wd-web/images/wui-bigdata-logo.png"
+      logoSrc="https://github.com/corncandy/wui-webapp/blob/master/wui-webapp-logo.png?raw=true"
     />
   </div>,
   document.getElementById('app')
