@@ -1,6 +1,0 @@
-# Treemap
-
-```react
----
-<Treemap />
-```

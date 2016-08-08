@@ -1,6 +1,0 @@
-# ScatterChart
-
-```react
----
-<ScatterChart />
-```

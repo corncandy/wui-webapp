@@ -1,6 +1,0 @@
-# ForceDirectedGraph
-
-```react
----
-<ForceDirectedGraph />
-```

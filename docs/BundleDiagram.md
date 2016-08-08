@@ -1,6 +1,0 @@
-# BundleDiagram
-
-```react
----
-<BundleDiagram />
-```

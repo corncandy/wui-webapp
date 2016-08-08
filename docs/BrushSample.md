@@ -1,6 +1,0 @@
-# BrushSample
-
-```react
----
-<BrushSample />
-```

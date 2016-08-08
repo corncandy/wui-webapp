@@ -1,6 +1,0 @@
-# TreeDiagram
-
-```react
----
-<TreeDiagram />
-```

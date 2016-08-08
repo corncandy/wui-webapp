@@ -1,6 +1,0 @@
-# Histogram
-
-```react
----
-<Histogram />
-```

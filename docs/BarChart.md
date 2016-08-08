@@ -1,6 +1,0 @@
-# BarChart
-
-```react
----
-<BarChart />
-```

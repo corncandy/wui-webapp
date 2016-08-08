@@ -1,6 +1,0 @@
-# ClusterDiagram
-
-```react
----
-<ClusterDiagram />
-```

@@ -1,6 +1,0 @@
-# ChordDiagram
-
-```react
----
-<ChordDiagram />
-```

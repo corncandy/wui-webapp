@@ -1,6 +1,0 @@
-# LineChart
-
-```react
----
-<LineChart />
-```
