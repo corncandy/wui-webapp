@@ -1,0 +1,77 @@
+/* TODO: insert default styles of your component here for easy access */
+.axis path,
+.axis line {
+  fill: none;
+  stroke: black;
+  shape-randering: crispEdges;
+}
+
+.axis text {
+  font-family: sans-serif;
+  font-size: 11px;
+}
+
+.link {
+  fill: none;
+  stroke: black;
+  stroke-opacity: .5;
+  stroke-width: 1px;
+}
+
+.node {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1px;
+}
+
+.leafnode {
+  fill: green;
+}
+
+.nodeText {
+  writing-mode: tb;
+  font-family: simsun;
+  font-size: 16px;
+}
+
+.nodeRect {
+  stroke: white;
+  stroke-width: 2px;
+}
+
+.nodeName {
+  fill: white;
+  font-size: 12px;
+  font-family: simsun;
+}
+
+.province {
+  stroke: black;
+  stroke-width: 1px;
+}
+
+.tooltip {
+  position: absolute;
+  width: 120px;
+  height: auto;
+  text-align: center;
+  font-family: simsun;
+  font-size: 14px;
+  color: white;
+  background-color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.tooltip:after {
+  content: '';
+  position: absolute;
+  bottom: 100%;
+  left: 20%;
+  margin-left: -8px;
+  width: 0;
+  height: 0;
+  border-bottom: 12px solid #000000;
+  border-right: 12px solid transparent;
+  border-left: 12px solid transparent;
+}

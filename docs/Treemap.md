@@ -1,0 +1,6 @@
+# Treemap
+
+```react
+---
+<Treemap />
+```

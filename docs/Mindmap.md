@@ -1,0 +1,6 @@
+# Mindmap
+
+```react
+---
+<Mindmap />
+```

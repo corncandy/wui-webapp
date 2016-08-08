@@ -1,0 +1,6 @@
+# PackDiagram
+
+```react
+---
+<PackDiagram />
+```

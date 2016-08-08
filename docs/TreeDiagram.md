@@ -1,0 +1,6 @@
+# TreeDiagram
+
+```react
+---
+<TreeDiagram />
+```

@@ -1,0 +1,6 @@
+# BarChart
+
+```react
+---
+<BarChart />
+```

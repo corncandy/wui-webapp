@@ -1,0 +1,6 @@
+# BrushSample
+
+```react
+---
+<BrushSample />
+```

@@ -1,0 +1,6 @@
+# BundleDiagram
+
+```react
+---
+<BundleDiagram />
+```

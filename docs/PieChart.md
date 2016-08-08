@@ -1,0 +1,6 @@
+# PieChart
+
+```react
+---
+<PieChart />
+```
