@@ -1,4 +1,4 @@
-export const inputTypes = {
+const inputTypes = {
   TEXT: 'INPUT_TYPE_TEXT',
   NUMBER: 'INPUT_TYPE_NUMBER',
   EMAIL: 'INPUT_TYPE_EMAIL',
@@ -9,4 +9,15 @@ export const inputTypes = {
   TREESELECT: 'INPUT_TYPE_TREESELECT',
   DATE: 'INPUT_TYPE_DATE',
   DATERANGE: 'INPUT_TYPE_DATERANGE'
+}
+
+const showTypes = {
+  VIEW: 'SHOW_TYPE_VIEW',
+  CREATE: 'SHOW_TYPE_CREATE',
+  UPDATE: 'SHOW_TYPE_UPDATE'
+}
+
+export {
+  inputTypes,
+  showTypes
 }

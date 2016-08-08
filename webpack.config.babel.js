@@ -48,8 +48,7 @@ const common = {
       },
       {
         test: /\.jpg$/,
-        loader: 'file',
-        include: config.paths.docs
+        loader: 'file'
       },
       {
         test: /\.json$/,
@@ -63,6 +62,10 @@ const common = {
           config.paths.docs,
           './README.md'
         ]
+      },
+      {
+        test: /\.(ttf|eot|svg|woff(2)?)(\?[a-z0-9=&.]+)?$/,
+        loader: 'file'
       }
     ]
   },

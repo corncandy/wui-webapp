@@ -5,6 +5,9 @@ import Fork from 'react-ghfork'
 import { Catalog, CodeSpecimen, ReactSpecimen } from 'catalog'
 
 import 'purecss/build/pure.css'
+import 'bootstrap/dist/css/bootstrap.css'
+import 'admin-lte/dist/css/AdminLTE.css'
+import 'font-awesome/css/font-awesome.css'
 import 'react-ghfork/gh-fork-ribbon.ie.css'
 import 'react-ghfork/gh-fork-ribbon.css'
 import './main.css'
@@ -30,6 +33,20 @@ const pages = [{
     DataTable: require('../src/DataTable')
   },
   component: require('./DataTable.md')
+}, {
+  path: '/datafilter',
+  title: 'DataFilter',
+  imports: {
+    DataFilter: require('../src/DataFilter')
+  },
+  component: require('./DataFilter.md')
+}, {
+  path: '/datapaginator',
+  title: 'DataPaginator',
+  imports: {
+    DataFilter: require('../src/DataPaginator')
+  },
+  component: require('./DataPaginator.md')
 }]
 
 // Catalog - logoSrc="../images/logo.png"

@@ -102,6 +102,9 @@
     "test:lint"
   ],
   "dependencies": {
-    "moment": "^2.14.1"
+    "admin-lte": "^2.3.6",
+    "bootstrap": "^3.3.7",
+    "moment": "^2.14.1",
+    "react-bootstrap-daterangepicker": "^3.1.0"
   }
 }
