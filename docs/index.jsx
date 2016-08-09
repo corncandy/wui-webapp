@@ -8,6 +8,7 @@ import 'purecss/build/pure.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import 'admin-lte/dist/css/AdminLTE.css'
 import 'font-awesome/css/font-awesome.css'
+import 'bootstrap-daterangepicker/daterangepicker.css'
 import 'react-ghfork/gh-fork-ribbon.ie.css'
 import 'react-ghfork/gh-fork-ribbon.css'
 import './main.css'
@@ -27,26 +28,40 @@ const pages = [{
   imports: documentationImports,
   component: require('../README.md')
 }, {
-  path: '/datatable',
+  path: '/data-table',
   title: 'DataTable',
   imports: {
     DataTable: require('../src/DataTable')
   },
   component: require('./DataTable.md')
 }, {
-  path: '/datafilter',
+  path: '/data-filter',
   title: 'DataFilter',
   imports: {
     DataFilter: require('../src/DataFilter')
   },
   component: require('./DataFilter.md')
 }, {
-  path: '/datapaginator',
+  path: '/data-paginator',
   title: 'DataPaginator',
   imports: {
     DataFilter: require('../src/DataPaginator')
   },
   component: require('./DataPaginator.md')
+}, {
+  path: '/loading',
+  title: 'Loading',
+  imports: {
+    Loading: require('../src/Loading')
+  },
+  component: require('./Loading.md')
+}, {
+  path: '/flash-message',
+  title: 'FlashMessage',
+  imports: {
+    FlashMessage: require('../src/FlashMessage')
+  },
+  component: require('./FlashMessage.md')
 }]
 
 // Catalog - logoSrc="../images/logo.png"

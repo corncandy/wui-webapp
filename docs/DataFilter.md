@@ -8,6 +8,12 @@
       userID: {
         label: '用户ID'
       },
+      dateRange: {
+        label: '加入日期',
+        startField: 'startDate',
+        endField: 'endDate',
+        type: 'INPUT_TYPE_DATERANGE'
+      },
       status: {
         label: '用户状态',
         type: 'INPUT_TYPE_SELECT',
@@ -20,7 +26,7 @@
         }]
       }
     },
-    filterFields: ['userID', 'status'],
+    filterFields: ['userID', 'dateRange', 'status'],
     currentFilter: {}
   }}
   onCreate={() => alert('create')}
