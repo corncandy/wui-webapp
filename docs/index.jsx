@@ -5,9 +5,9 @@ import Fork from 'react-ghfork'
 import { Catalog, CodeSpecimen, ReactSpecimen } from 'catalog'
 
 import 'purecss/build/pure.css'
-import 'bootstrap/dist/css/bootstrap.css'
-import 'admin-lte/dist/css/AdminLTE.css'
-import 'font-awesome/css/font-awesome.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'admin-lte/dist/css/AdminLTE.min.css'
+import 'font-awesome/css/font-awesome.min.css'
 import 'bootstrap-daterangepicker/daterangepicker.css'
 import 'react-ghfork/gh-fork-ribbon.ie.css'
 import 'react-ghfork/gh-fork-ribbon.css'
@@ -62,6 +62,13 @@ const pages = [{
     FlashMessage: require('../src/FlashMessage')
   },
   component: require('./FlashMessage.md')
+}, {
+  path: '/button',
+  title: 'Button',
+  imports: {
+    Button: require('../src/Button')
+  },
+  component: require('./Button.md')
 }]
 
 // Catalog - logoSrc="../images/logo.png"
